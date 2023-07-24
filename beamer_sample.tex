@@ -1,0 +1,89 @@
+\documentclass[xcolor={dvipsnames},10pt]{beamer}
+
+
+\title{The Presentation Title} 
+%\date{}
+\author{Author's Name}
+%Logos can be added/removed in beamerinnerthemesapphire.sty
+
+
+\usetheme{sapphire}
+
+
+\begin{document}
+
+\setlength{\abovedisplayskip}{3pt}
+\setlength{\belowdisplayskip}{3pt}
+
+\begin{frame}
+    \titlepage
+\end{frame}
+
+
+\begin{frame}
+    \frametitle{Outline}
+    \begin{multicols}{2}
+        \tableofcontents
+    \end{multicols}
+\end{frame}
+
+\begin{frame}
+\section{Sample Slides}
+\frametitle{Frame Title}
+    \begin{itemize}
+    \item Text 1
+    \item Text 2
+    \item Text 3
+    \end{itemize}   
+\end{frame}
+
+\begin{frame}
+    \frametitle{Frame Title}
+    \framesubtitle{Frame Subtitle}
+
+    \begin{itemize}
+        \item Text 1
+        \item Text 2
+        \item Text 3
+    \end{itemize}
+
+\end{frame}
+
+\begin{frame}
+    \frametitle{Frame Title}
+    \framesubtitle{Frame Subtitle}
+    \section{Sample \textit{tcolorbox}}
+    \begin{tcolorbox}
+        Some header: 
+        \tcblower
+        Box contents
+    \end{tcolorbox}
+\end{frame}
+
+\begin{frame}
+    \frametitle{Frame Title}
+    \framesubtitle{Frame Subtitle}
+    \section{Equation arrow overlay example}
+    \begin{equation*}
+        \tikzmark{F}\Vec{F}=\tikzmark{m}m \tikzmark{a}\Vec{a}
+    \end{equation*}
+    \begin{tikzpicture}[overlay,remember picture]
+        \node (F2) [below of = F, node distance = 2 em, anchor=east]{\footnotesize{Force}};
+        \draw[<-, in=0, out=-90,color=color1] (F.south)++(.25em,-.5ex) to (F2.east);
+
+        \node (a2) [below of = a, node distance = 2 em, anchor=west]{\footnotesize{Acceleration}};
+        \draw[<-, in=180, out=-90,color=color1] (a.south)++(.25em,-.5ex) to (a2.west);
+
+        \node (m2) [below of = m, node distance = 4 em, anchor=west]{\footnotesize{Mass}};
+        \draw[<-, in=180, out=-90,color=color1] (m.south)++(.25em,-.5ex) to (m2.west);
+    \end{tikzpicture}
+\end{frame}
+
+\begin{frame}
+    \begin{center}    
+    \usebeamerfont{frametitle}
+    \textcolor{color1}{Untitled frames get the title page decoration by default, to be used as section title slides, thank you slides, etc.}
+    \end{center}
+\end{frame}
+
+\end{document}

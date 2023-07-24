@@ -1,0 +1,93 @@
+\mode<presentation>
+
+\setbeamertemplate{background}{
+  \begin{tikzpicture}
+  \ifx\insertframetitle\@empty
+  \useasboundingbox (0,0) rectangle(\the\paperwidth,\the\paperheight);
+  \node[diamond,fill,color=color1] at (0,0) {};
+  \node[diamond,fill,color=color1] at (0,0.7) {};
+  \node[diamond,fill,color=color1] at (0.7,0.7) {};
+  \node[diamond,fill,color=color1] at (0.7,0) {};
+  \node[diamond,fill,color=color2] at (0.35,0.35) {};
+  \node[diamond,fill,color=color2] at (1.05,1.05) {};
+  \node[diamond,fill,color=color2] at (1.05,0.35) {};
+  \node[diamond,fill,color=color2] at (0.35,1.05) {};
+  \node[diamond,fill,color=color1] at (0,1.4) {};
+  \node[diamond,fill,color=color1] at (1.4,0) {};
+  \node[diamond,fill,color=color1] at (1.4,0.7) {};
+  \node[diamond,fill,color=color1] at (0.7,1.4) {};
+  \node[diamond,fill,color=color2] at (1.75,0.35) {};
+  \node[diamond,fill,color=color2] at (0.35,1.75) {};
+  \node[diamond,fill,color=color1] at (0,2.1) {};
+  \node[diamond,fill,color=color1] at (2.1,0) {};
+  \node[diamond,fill,color=color2] at (1.05,1.75) {};
+  \node[diamond,fill,color=color2] at (1.75,1.05) {};
+  \node[diamond,fill,color=color2] at (1.75,1.75) {};
+  \node[diamond,fill,color=color1] at (1.4,1.4) {};
+  \node[diamond,fill,color=color2] at (2.45,0.35) {};
+  \node[diamond,fill,color=color2] at (0.35,2.45) {};
+  \node[diamond,fill,color=color1] at (0,2.8) {};
+  \node[diamond,fill,color=color1] at (2.8,0) {};
+  \node[diamond,fill,color=color1] at (3.5,0) {};
+  \node[diamond,fill,color=color1] at (0,3.5) {};
+  %\node[diamond,fill,color=color1] at (2.1,2.1) {};
+  \node[diamond,fill,color=color1] (a) at (\the\paperwidth,\the\paperheight) {};
+  \node[diamond,fill,color=color2] at ($(\the\paperwidth,\the\paperheight)-(0.35,0.35)$) {};
+  \node[diamond,fill,color=color1] at ($(\the\paperwidth,\the\paperheight)-(0,0.7)$) {};
+  \node[diamond,fill,color=color1] at ($(\the\paperwidth,\the\paperheight)-(0.7,0)$) {};
+  \node[diamond,fill,color=color1] at ($(\the\paperwidth,\the\paperheight)-(0.7,0.7)$) {};
+  \else
+  \fill[White,opacity=1] (0,0) rectangle(\the\paperwidth,\the\paperheight);
+  \fi
+  \end{tikzpicture}
+ }
+
+% Title page
+\defbeamertemplate*{title page}{sapphire}[1][]
+{ \setstretch{1}
+  \vskip3cm%
+  \begin{beamercolorbox}[wd=10cm,leftskip=1cm,sep=0pt,#1]{title page header}
+    \usebeamerfont{title}\centering\Large\textbf{\inserttitle}
+  \end{beamercolorbox}%
+  \vskip0.65cm%
+  \begin{beamercolorbox}[wd=10cm,leftskip=1cm,#1]{author}
+    \usebeamerfont{author}\centering\insertauthor%
+  \end{beamercolorbox}
+  \vskip0.2cm%
+  \begin{beamercolorbox}[wd=10cm,leftskip=1cm,#1]{date}
+    \usebeamerfont{author}\centering\small\insertdate%
+  \end{beamercolorbox}
+  \vskip1.5cm
+  
+  \begin{minipage}[b]{0.39\linewidth}
+    \hspace{1pt}
+  \end{minipage}%
+  \begin{minipage}[b]{0.6\linewidth}
+    \vspace{0pt}
+    \begin{figure}[t!] 
+    \begin{subfigure}[c]{0.22\textwidth}     
+    \centering
+    \includegraphics[keepaspectratio=true,scale=0.5]{tikz-logo-stand-in.pdf}   
+    \end{subfigure}    
+    \begin{subfigure}[c]{0.22\textwidth}
+      \centering
+      \includegraphics[keepaspectratio=true,scale=0.5]{tikz-logo-stand-in.pdf}
+    \end{subfigure}
+    \begin{subfigure}[c]{0.22\textwidth}
+      \centering
+    \includegraphics[keepaspectratio=true,scale=0.5]{tikz-logo-stand-in.pdf}   
+    \end{subfigure}
+    \begin{subfigure}[c]{0.22\textwidth}
+      \centering 
+      \includegraphics[keepaspectratio=true,scale=0.5]{tikz-logo-stand-in.pdf}  
+    \end{subfigure}   
+  \end{figure}
+  \end{minipage}
+}
+
+\setbeamertemplate{items}[square]
+\setbeamertemplate{sections/subsections in toc}[square]
+
+
+\mode
+<all>

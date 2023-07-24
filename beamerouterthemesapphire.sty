@@ -1,0 +1,35 @@
+\mode<presentation>
+
+% Frame title
+\defbeamertemplate*{frametitle}{sapphire}[1][]
+{
+%\vskip1cm%
+  \begin{beamercolorbox}[wd=\paperwidth,ht=1.2cm]{frametitle} 
+  \begin{tikzpicture}
+  \useasboundingbox[fill=White](0,0) rectangle(\the\paperwidth,1.2);
+   \ifx\insertframesubtitle\@empty%
+      {\node[diamond,fill,color=color1,anchor=east] at (2.2,0){};
+      \node[anchor=west,font=\large] at (2.2,0){\insertframetitle};}
+      \else%
+      {\node[diamond,fill,color=color1,anchor=east] at (2.2,0){};
+      \node[anchor=west,font=\large] at (2.2,0){\insertframetitle};
+      \node[anchor= west,font=\normalsize] at (2.2,-0.55){\insertframesubtitle};}%
+      \fi
+  \end{tikzpicture}  
+  \end{beamercolorbox}}
+
+
+  \setbeamertemplate{footline}{%
+  \usebeamerfont{structure}
+  \ifx\insertframetitle\@empty\relax
+  \begin{beamercolorbox}[wd=\paperwidth,ht=3.5ex,dp=2.5ex]{item}
+    \end{beamercolorbox}
+  \else
+  \begin{beamercolorbox}[wd=\paperwidth,ht=3.5ex,dp=2.5ex,left,leftskip=12cm]{section in head/foot}
+  \begin{tikzpicture}
+    \node[diamond,fill=color1,text=White, minimum width = 0.6cm, minimum height = 0.6cm] at (\the\paperwidth,0){\insertframenumber};
+  \end{tikzpicture}  
+  \end{beamercolorbox}
+  \fi} 
+
+\mode<all>

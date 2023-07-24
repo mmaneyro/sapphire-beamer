@@ -1,0 +1,47 @@
+\mode<presentation>
+
+\RequirePackage{tikz}
+\usepackage[compat=1.1.0]{tikz-feynman}
+\usepackage{pgfplots}
+\pgfplotsset{compat=1.18}
+\usepackage[dvipsnames]{xcolor}
+
+\setbeamersize{text margin left=35mm,text margin right=35mm}
+\geometry{hmargin=1.5cm, vmargin=0cm,head=0.2cm, headsep=0pt,foot=0cm}
+
+\usepackage{setspace}
+\setstretch{1.5}
+\usepackage{graphicx}
+\usepackage{multicol}
+\usepackage[most]{tcolorbox}
+\usepackage{subcaption}
+
+
+\usepackage{hyperref} 
+\hypersetup{colorlinks,citecolor=black,filecolor=black,linkcolor=black,urlcolor=black,linktoc=all}
+
+
+\usefonttheme{professionalfonts}
+\usepackage[sfdefault]{classico} 
+\usepackage[OT1,euler-digits]{eulervm}
+
+
+\useinnertheme{sapphire}
+\useoutertheme{sapphire}
+\usecolortheme{sapphire}
+\usefonttheme{sapphire}
+
+% the colors can be easily modified by redefining these commands
+% for example Emerald, BrickRed, DarkOrchid
+\colorlet{color1}{NavyBlue!55} %title text, darker color in decorations
+\colorlet{color2}{NavyBlue!15} % ligter color in the decorations
+\colorlet{color3}{NavyBlue!25} %items
+
+%tcolorbox settings
+\tcbset{colframe=color1,colback=color2,arc=0pt,outer arc=0pt}
+
+\setbeamertemplate{navigation symbols}{}
+\setbeamertemplate{blocks}[rounded][shadow=true]  
+
+\newcommand{\tikzmark}[1]{\tikz[baseline,remember picture] \coordinate (#1) {};}
+\mode<all>
