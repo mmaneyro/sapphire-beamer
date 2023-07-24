@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" width="362.835pt" height="272.126pt" viewBox="0 0 362.835 272.126">
+<path transform="matrix(1,0,0,-1,0,272.126)" d="M0 0H362.835V272.126H0Z" fill="#ffffff"/>
+<path transform="matrix(1,0,0,-1,0,272.126)" d="M0 0V272.12965H362.8394V0ZM362.8394 272.12965" fill="#ffffff"/>
+<path transform="matrix(1,0,0,-1,0,35.01201)" d="M0 0V34.01608H362.8394V0ZM362.8394 34.01608" fill="#ffffff"/>
+<path transform="matrix(1,0,0,-1,0,35.01201)" d="M62.0811 0 52.6004 9.4807 43.1197 0 52.6004-9.4807Z" fill="#7b9fd3"/>
+<text fill="#7b9fd3" xml:space="preserve" transform="matrix(1 0 -0 1 0 272.126)" font-size="11.95517" font-family="URWClassico"><tspan y="-232.751" x="67.343 72.8902 76.77563 82.50215 92.42494 101.678249 108.14599 111.44562 114.74525 118.044879">FrameTitle</tspan></text>
+<text fill="#7b9fd3" xml:space="preserve" transform="matrix(1 0 -0 1 0 272.126)" font-size="9.96264" font-family="URWClassico"><tspan y="-217.892" x="67.343 71.96567 75.20352 79.975627 88.24461 95.955699 100.91709 106.42643 111.93577 114.62568 117.37537 120.12505 122.87474">FrameSubtitle</tspan></text>
+<path transform="matrix(1,0,0,-1,42.52,159.944)" d="M0 0V51.36646H277.79896V0Z" fill="#7b9fd3"/>
+<path transform="matrix(1,0,0,-1,42.52,159.944)" d="M1.41731 1.41731V49.94913H276.38163V1.41731Z" fill="#d6def1"/>
+<path transform="matrix(1,0,0,-1,42.52,159.944)" stroke-width=".3985" stroke-linecap="butt" stroke-dasharray="2.83466,2.83466" stroke-dashoffset="1.41731" stroke-miterlimit="10" stroke-linejoin="miter" fill="none" stroke="#7b9fd3" d="M1.41731 25.39929H276.38163"/>
+<text xml:space="preserve" transform="matrix(1 0 -0 1 0 272.126)" font-size="9.96264" font-family="URWClassico"><tspan y="-146.225" x="58.11 63.01162 68.52096 76.78995 84.50103 90.01037 94.91199 99.68409 105.19343 110.15482 113.38271">Someheader:</tspan></text>
+<text xml:space="preserve" transform="matrix(1 0 -0 1 0 272.126)" font-size="9.96264" font-family="URWClassico"><tspan y="-122.233" x="58.11 64.16728 69.35782 77.0689 81.661678 87.17101 92.68035 95.32045 100.281848 105.79118 108.68035">Boxcontents</tspan></text>
+<path transform="matrix(1,0,0,-1,0,272.126)" d="M0 0H362.835V14.137H0Z" fill="#d6def1"/>
+<path transform="matrix(1,0,0,-1,-14.2560009,257.814)" d="M371.261 0 362.8394 8.42159 354.4178 0 362.8394-8.42159Z" fill="#7b9fd3"/>
+<text fill="#ffffff" xml:space="preserve" transform="matrix(1 0 -0 1 0 272.12599)" font-size="4.98132" font-family="URWClassico"><tspan y="-12.688" x="347.202">5</tspan></text>
+</svg>

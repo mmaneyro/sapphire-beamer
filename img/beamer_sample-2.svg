@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" width="362.835pt" height="272.126pt" viewBox="0 0 362.835 272.126">
+<path transform="matrix(1,0,0,-1,0,272.126)" d="M0 0H362.835V272.126H0Z" fill="#ffffff"/>
+<path transform="matrix(1,0,0,-1,0,272.126)" d="M0 0V272.12965H362.8394V0ZM362.8394 272.12965" fill="#ffffff"/>
+<path transform="matrix(1,0,0,-1,0,35.01201)" d="M0 0V34.01608H362.8394V0ZM362.8394 34.01608" fill="#ffffff"/>
+<path transform="matrix(1,0,0,-1,0,35.01201)" d="M62.0811 0 52.6004 9.4807 43.1197 0 52.6004-9.4807Z" fill="#7b9fd3"/>
+<text fill="#7b9fd3" xml:space="preserve" transform="matrix(1 0 -0 1 0 272.126)" font-size="11.95517" font-family="URWClassico"><tspan y="-232.757" x="67.343 77.26579 83.877 87.17663 90.47626 93.77589 100.38709">Outline</tspan></text>
+<path transform="matrix(1,0,0,-1,41.81302,133.496)" d="M0 0H9.542V9.542H0Z" fill="#becde9"/>
+<text fill="#ffffff" xml:space="preserve" transform="matrix(1 0 -0 1 .000019073487 272.126)" font-size="8.96638" font-family="URWClassico"><tspan y="-140.327" x="44.105">1</tspan></text>
+<text xml:space="preserve" transform="matrix(1 0 -0 1 .000019073487 272.126)" font-size="9.96264" font-family="URWClassico"><tspan y="-140.327" x="56.657 61.518774 66.29088 74.45028 79.95962 82.709308 90.42039 95.15264 97.90233 100.652019 106.161357 111.06297">SampleSlides</tspan></text>
+<path transform="matrix(1,0,0,-1,41.81302,151.42902)" d="M0 0H9.542V9.542H0Z" fill="#becde9"/>
+<text fill="#ffffff" xml:space="preserve" transform="matrix(1 0 -0 1 .000019073487 272.126)" font-size="8.96638" font-family="URWClassico"><tspan y="-122.394" x="44.105">2</tspan></text>
+<text xml:space="preserve" transform="matrix(1 0 -0 1 .000019073487 272.126)" font-size="9.96264" font-family="URWClassico"><tspan y="-122.394" x="56.657 61.518774 66.29088 74.45028 79.95962 82.709308">Sample</tspan></text>
+<text xml:space="preserve" transform="matrix(1 0 -0 1 .000019073487 272.126)" font-size="9.96264" font-family="URWClassico" font-style="italic"><tspan y="-122.394" x="90.42 93.07006 97.662837 103.17217 105.92186 111.4312 114.61924 120.12858 125.46855">tcolorbox</tspan></text>
+<path transform="matrix(1,0,0,-1,185.69202,128.51502)" d="M0 0H9.542V9.542H0Z" fill="#becde9"/>
+<text fill="#ffffff" xml:space="preserve" transform="matrix(1 0 -0 1 .000019073487 272.126)" font-size="8.96638" font-family="URWClassico"><tspan y="-145.308" x="187.984">3</tspan></text>
+<text xml:space="preserve" transform="matrix(1 0 -0 1 .000019073487 272.126)" font-size="9.96264" font-family="URWClassico"><tspan y="-145.308" x="200.536 205.24832 210.60822 216.11756 220.77011 223.46004 226.20973 231.71907 239.9781 244.75022 248.01796 251.19605 256.49617 266.95695 272.21723 276.92958 281.89097 285.05909 287.80879 292.29197">Equationarrowoverlay</tspan><tspan y="-127.375" x="200.536 205.26825 210.13999 214.9121 223.0715 228.58084 231.33054">example</tspan></text>
+<path transform="matrix(1,0,0,-1,.000019073487,272.12605)" d="M0 0H362.835V14.137H0Z" fill="#d6def1"/>
+<path transform="matrix(1,0,0,-1,-14.255981,257.81407)" d="M371.261 0 362.8394 8.42159 354.4178 0 362.8394-8.42159Z" fill="#7b9fd3"/>
+<text fill="#ffffff" xml:space="preserve" transform="matrix(1 0 -0 1 .000030517579 272.12608)" font-size="4.98132" font-family="URWClassico"><tspan y="-12.656" x="347.202">2</tspan></text>
+</svg>
